@@ -3,10 +3,14 @@ package com.findmaximum;
 import java.util.Scanner;
 
 /**
- * UC5 - internally called from testMaximum
+ * UCrefactor1 - - Make the test case work
  *
  * Requirements:
-     *   (See PDF)
+     *   - Refactor to create Generic
+     *   - Class to take in 3 variables of
+     *   - Generic Type
+     *   - Ensure the Generic Type extends Comparable
+     *   - Write parameter constructor
  *
  * @author  Kalees-bridgelabz
  * @version 1.0
@@ -16,11 +20,10 @@ public class FindMaximumMain {
     public static void main(String[] args) {
         System.out.println("Welcome to FindMaximum");
         
-        System.out.println("\n=== UC5: internally called from testMaximum ===");
-        // Find Maximum using Generics / Comparable
-        Integer a = 56, b = 30, c = 70;
-        Integer max = (a.compareTo(b) >= 0 && a.compareTo(c) >= 0) ? a
-                    : (b.compareTo(c) >= 0) ? b : c;
-        System.out.println("Max of " + a + ", " + b + ", " + c + " = " + max);
+        System.out.println("\n=== Refactor refactor1: - Make the test case work ===");
+        // TODO: Refactor implementation
+        // 
+Refactor to create Generic        // Class to take in 3 variables of        // Generic Type
+        System.out.println("Refactoring complete!");
     }
 }
